@@ -7,5 +7,4 @@ hello jupiter
 hello saturn
 hello uranus
 hello neptune
-hello pluto
 hello worlds
