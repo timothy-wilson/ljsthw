@@ -109,7 +109,7 @@ const spider = (hp) => {
 }
 
 const gold = (hp) => {
-    say("You won you found the gold you take it home and are the richest person in the United States of America");
+    say("You won you found the gold");
 }
 
 let def = 10
