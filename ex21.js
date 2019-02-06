@@ -4,15 +4,19 @@ const person = (name, age, eyes) => {
         name: name,
         age: age,
         eyes: eyes,
-        talk: (words) => {
-            console.log(`I am ${obj.name} and ${words}.`)
-        }
     }
+
+    obj.talk = (words) => {
+        console.log(`I am ${obj.name} and ${words}.`)
+    }
+
     return obj;
 }
 
-let alex = person("Alex", 16, "green");
-let frank = person("Frank", 34, "blue");
+let eli = person("Eli", 15, "brown");
+let tim = person("Tim", 13, "brown")
+let cora = person("Cora", 12, "blue");
 
-alex.talk("this is alex")
-frank.talk("it works for frank too")
+eli.talk("I like board games")
+tim.talk("Programming is better")
+cora.talk("Gymnasties are not as good as either")
