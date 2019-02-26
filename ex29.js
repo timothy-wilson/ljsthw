@@ -23,7 +23,7 @@ let pets = [
   }
   
   const tee = (result, data, cb) => {
-    var side = (input) => {
+    let side = (input) => {
       cb(input, result, data);
       return input;
     }
